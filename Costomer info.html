@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User info</title>
+        <style type="text/css">
+            body{
+                background-image: url(Images/back.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .content{
+                background-color: white;
+                width: 55%;
+                padding: 40px;
+                margin: 100px auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            p{
+                font-size: 20px;
+                color: black;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="content">
+        <h1>User Information</h1>
+        <p>Provide your Information below , we keep you updated about our project. This project dont support @copywright , so make sure before using our Information. </p>
+        <br>
+        <hr>
+        <br>
+        <h3>Enter the details here !</h3>
+        <!-- Forms -->
+        <form  method="POST">
+            <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Enter first name">
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName" placeholder="Enter last name">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter email id ">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message" placeholder="Comment here"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="Gender">
+                <option value="male">Male</option>
+                <option value="male">Female</option>
+                <option value="male">Other</option>
+            </select>    
+        </div>
+        <br>
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="SUBMIT">
+        <input type="reset" name="reset" value="RESET">
+        </form>
+        <div style="margin-top: 500px"></div>
+    </div>
+    </body>
+</html>

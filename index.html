@@ -1,0 +1,156 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="curSess()"> 
+        <h1>TIME TABLE</h1> 
+        <table id="contTbl" border="5" align="center" cellspacing="1"> 
+            <tr id="classTime"> 
+                <td>
+                    <b>TIME<br>-----------<br>DAY</b></br> 
+                </td> 
+                <td> 
+                    <b><span class="sH">9</span>:<span class="sM">00</span> - <span class="eH">10</span>:<span class="eM">00</span></b> 
+                </td> 
+                <td> 
+                    <b><span class="sH">10</span>:<span class="sM">00</span> - <span class="eH">11</span>:<span class="eM">00</span></b> 
+                </td> 
+                <td> 
+                    <b><span class="sH">11</span>:<span class="sM">00</span> - <span class="eH">12</span>:<span class="eM">00</span></b> 
+                </td> 
+                <td> 
+                    <b><span class="sH">12</span>:<span class="sM">00</span> - <span class="eH">1</span>:<span class="eM">00</span></b> 
+                </td> 
+                <td> 
+                    <b><span class="sH">1</span>:<span class="sM">00</span> - <span class="eH">2</span>:<span class="eM">00</span></b> 
+                </td>
+                <td> 
+                    <b><span class="sH">2</span>:<span class="sM">00</span> - <span class="eH">2</span>:<span class="eM">30</span></b> 
+                </td>
+                <td> 
+                    <b><span class="sH">2</span>:<span class="sM">30</span> - <span class="eH">3</span>:<span class="eM">30</span></b> 
+                </td> 
+                <td> 
+                    <b><span class="sH">3</span>:<span class="sM">30</span> - <span class="eH">4</span>:<span class="eM">30</span></b> 
+                </td> 
+                <td> 
+                    <b><span class="sH">4</span>:<span class="sM">30</span> - <span class="eH">5</span>:<span class="eM">30</span></b> 
+                </td>
+                <td> 
+                    <b><span class="sH">5</span>:<span class="sM">30</span> - <span class="eH">7</span>:<span class="eM">00</span></b> 
+                </td>
+            </tr> 
+            <tr> 
+                <td class="content"> 
+                    <b>Monday</b>
+                </td> 
+                <td class="content"  id="m1">-</td> 
+                <td class="content" id="m2">-</td> 
+                <td class="content" id="m3">-</td>  
+                <td class="content" id="m4">-</td> 
+                <td class="content" id="L"> 
+                    <b>LUNCH</b>
+                </td>
+                <td class="content" id="m5">-</td> 
+                <td class="content" id="m6">18CS501</td> 
+                <td class="content" id="m7">18CS502</td> 
+                <td class="content" id="m8">18CS503</td>
+                <td class="content" id="m9">18AAD</td> 
+
+            </tr> 
+            <tr> 
+                <td class="content"> 
+                    <b>Tuesday</b> 
+                </td> 
+                <td class="content" id="m1">-</td> 
+                <td class="content" id="m2">18CS504</td> 
+                <td class="content" id="m3">18CS505</td> 
+                <td class="content" id="m4">18CS506</td>
+                <td class="content" id="L"> 
+                    <b>LUNCH</b>
+                </td>
+                <td class="content" id="m5">-</td> 
+                <td class="content" id="m6">-</td> 
+                <td class="content" id="m7">-</td> 
+                <td class="content" id="m8">-</td>
+                <td class="content" id="m9">-</td> 
+            </tr> 
+            <tr> 
+                <td class="content"> 
+                    <b>Wednesday</b> 
+                </td> 
+                <td class="content" id="m1">-</td> 
+                <td class="content" id="m2">-</td> 
+                <td class="content" id="m3">18CS507</td>
+                <td class="content" id="m4">18CS507</td>
+                <td class="content" id="L"> 
+                    <b>LUNCH</b>
+                </td>
+                <td class="content" id="m5">-</td> 
+                <td class="content" id="m6">18CS501</td> 
+                <td class="content" id="m7">18CS502</td> 
+                <td class="content" id="m8">18CS503</td>
+                <td class="content" id="m9">-</td> 
+            </tr> 
+            <tr> 
+                <td class="content"> 
+                    <b>Thursday</b> 
+                </td> 
+                <td class="content" id="m1">-</td> 
+                <td class="content" id="m2">18CS504</td> 
+                <td class="content" id="m3">18CS505</td> 
+                <td class="content" id="m4">18CS506</td>
+                <td class="content" id="L"> 
+                    <b>LUNCH</b>
+                </td>
+                <td class="content" id="m5">18CIP</td>
+                <td class="content" id="m6">18CIP</td>
+                <td class="content" id="m7">-</td> 
+                <td class="content" id="m8">-</td>
+                <td class="content" id="m9">18AAD</td> 
+            </tr> 
+            <tr> 
+                <td class="content"> 
+                    <b>Friday</b> 
+                </td> 
+                <td class="content" id="m1">-</td> 
+                <td class="content" id="m2">-</td> 
+                <td class="content" id="m3">-</td>  
+                <td class="content" id="m4">-</td> 
+                <td class="content" id="L"> 
+                    <b>LUNCH</b>
+                </td>
+                <td class="content" id="m5">-</td> 
+                <td class="content" id="m6">18CS501</td> 
+                <td class="content" id="m7">18CS502</td> 
+                <td class="content" id="m8">18CS503</td>
+                <td class="content" id="m9">-</td>
+            </tr> 
+            <tr> 
+                <td class="content"> 
+                    <b>Saturday</b> 
+                </td> 
+                <td class="content" id="m1">-</td> 
+                <td class="content" id="m2">18CS504</td> 
+                <td class="content" id="m3">18CS505</td> 
+                <td class="content" id="m4">18CS506</td>
+                <td class="content" id="L"> 
+                    <b>LUNCH</b>
+                </td>
+                <td class="content" id="m5">-</td> 
+                <td class="content" id="m6">-</td> 
+                <td class="content" id="m7">-</td> 
+                <td class="content" id="m8">-</td>
+                <td class="content" id="m9">-</td> 
+            </tr> 
+        </table>
+
+        <div id="nowBut">
+            <button onclick="myFunction()">Click Here To Get Today's Day <br> and Current Time</button>
+            <p><span id="nowCont"></span></p>
+            <script src="current.js"></script>
+        </div>
+        
+    </body> 
+</html>

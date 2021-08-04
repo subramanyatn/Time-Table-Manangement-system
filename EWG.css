@@ -1,0 +1,81 @@
+.head{
+    text-align: center;
+    color: white;
+    size: 100em;
+    margin-top: 5%;
+    padding-top: 30px;
+}
+.TT{
+    text-align: center;
+    color: tomato;
+    font-style: oblique;
+}
+body{
+    background-image: url(Images/back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content{
+    background-color:whitesmoke;
+    width: 70%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.google{
+    background-color:whitesmoke;
+    width: 6%;
+    padding: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+margin: 0;
+padding: 0;
+}
+ body{
+  
+-webkit-background-size:cover;
+background-size:cover;
+background-position: center center;
+height: 100vh;
+}
+
+.wrapper{
+width: 860px; 
+margin: 0 auto;
+}
+.wrapper ul{
+list-style: none;
+margin-top: 2%;
+}
+.wrapper ul li {
+background: #262626;
+width: 168px;
+border: 1px solid #fff;
+height: 50px;
+line-height: 50px;
+text-align: center;
+float: left;
+color: #fff;
+font-size: 16px;
+position: relative;
+font-family: poppins;
+text-transform: uppercase;
+font-weight: bold;
+}
+.wrapper ul li:hover{
+background: crimson; 
+}
+
+.wrapper ul ul{
+display: none;
+}
+.wrapper ul li:hover > ul{
+display: block;
+}
+.wrapper ul ul ul{
+    margin-left: 170px;
+top: 0;
+position: absolute;
+}

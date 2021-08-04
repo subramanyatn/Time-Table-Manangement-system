@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apply leave</title>
+        <link rel="stylesheet" type="text/css" href="apply leave.css">
+    </head>
+
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Leave Application</h2>
+	</div>
+	<form action="apply leave.php" method="POST" id="form" class="form">
+		<div class="form-control">
+			<label for="username">Name</label>
+			<input name="name" type="text" placeholder="Name" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input name="email" type="email" placeholder="Email" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Reason of Leave</label>
+			<input name="reason" type="text" placeholder="Reason" id="password"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">College ID</label>
+			<input name="clgid" type="text" placeholder="College ID" id="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			
+        </div>
+        <div class="form-control">
+			<label for="username">Date of Leave From -</label>
+			<input name="datefrom" type="date" id="date"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			
+        </div>
+        <div class="form-control">
+			<label for="username">Date of Leave To -</label>
+			<input name="dateto" type="date" id="date1"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			
+		</div>
+		<button>Submit</button>
+	</form>
+</div>
+
+
+
+</body>
+</html>

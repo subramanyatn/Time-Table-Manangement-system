@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      
+      
+    />
+    <link rel="stylesheet" href="dashboard.css" />
+    <title>Teacher dashboard</title>
+  </head>
+  <body id="body">
+    <div class="container">
+      <nav class="navbar">
+        <div class="nav_icon" onclick="toggleSidebar()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="navbar__left">
+          
+          <a class="active_link" href="#">Admin</a>
+        </div>
+        <div class="navbar__right">
+          
+            
+        
+        </div>
+      </nav>
+
+      <main>
+        <div class="main__container">
+        
+
+          <div class="main__title">
+            
+            <div class="main__greeting">
+            
+              <p>Welcome to your admin dashboard</p>
+            </div>
+          </div>
+
+          
+          <div class="main__cards">
+            <div class="card">
+              
+          
+      </main>
+
+      <div id="sidebar">
+        <div class="sidebar__title">
+          <div class="sidebar__img">
+            
+          </div>
+          <i
+            onclick="closeSidebar()"
+            class="fa fa-times"
+            id="sidebarIcon"
+            aria-hidden="true"
+          ></i>
+        </div>
+
+        <div class="sidebar__menu">
+          <div class="sidebar__link active_menu_link">
+            <i class="fa fa-home"></i>
+            <a href="#">Dashboard</a>
+          </div>
+          <h2>Management</h2>
+          <div class="sidebar__link">
+            <i class="fa fa-user-secret" aria-hidden="true"></i>
+            <a href="#">Admin Management</a>
+          </div>
+          
+          <h2>LEAVE</h2>
+          
+          <div class="sidebar__link">
+            <i class="fa fa-sign-out"></i>
+            <a href="leave policy.html">Leave Policy</a>
+          </div>
+          
+          <div class="sidebar__link">
+            <i class="fa fa-files-o"></i>
+            <a href="apply leave.html">Apply for leave</a>
+          </div>
+          <h2>TIME TABLE</h2>
+          <div class="sidebar__link">
+            <i class="fa fa-money"></i>
+            <a href="#">Class</a>
+          </div>
+          
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
